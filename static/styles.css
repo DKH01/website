@@ -1,0 +1,75 @@
+/* Common styles */
+body {
+    font-family: 'Avenir Next CE', Arial, sans-serif;
+    padding: 0;
+    margin: 0;
+    background-color: #f0f0f0; /* Light grey background */
+}
+
+/* Header styles */
+.header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #eeb893; /* Cyan background */
+    border-bottom: 3px solid #ccc;
+    width: 100vw; /* Full viewport width */
+    box-sizing: border-box; /* Include padding and border in width calculation */
+}
+
+.header .title {
+    font-size: 40px; /* Adjusted font size for better fit */
+    font-weight: bold;
+    text-align: center;
+    margin: 0;
+}
+
+.header .nav-links {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+.header .nav-links ul {
+    list-style: none; /* Remove bullets */
+    padding: 0;
+    margin: 0;
+    display: flex; /* Display list items in a row */
+}
+
+.header .nav-links li {
+    margin: 0 10px; /* Adjusted margin for better spacing */
+}
+
+.header .nav-links a {
+    text-decoration: none;
+    color: blue;
+    font-size: 18px; /* Font size for nav links */
+}
+
+.header .nav-links a:hover {
+    text-decoration: underline;
+}
+
+/* Centered container */
+.center-container {
+    max-width: 750px; /* Max width for mobile view */
+    margin: 0 auto; /* Center the container */
+    background-color: white; /* White background for content */
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Validator styles */
+.html-validator {
+    display: flex;
+    justify-content: center;
+    gap: 20px; /* Space between the validator images */
+    margin-top: 20px;
+}
+
+.html-validator img {
+    width: 100px; /* Adjusted width for smaller size */
+    height: auto; /* Maintain aspect ratio */
+}
