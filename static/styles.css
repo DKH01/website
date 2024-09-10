@@ -68,8 +68,3 @@ body {
     gap: 20px; /* Space between the validator images */
     margin-top: 20px;
 }
-
-.html-validator img {
-    width: 100px; /* Adjusted width for smaller size */
-    height: auto; /* Maintain aspect ratio */
-}
